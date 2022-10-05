@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="How to create an animated website using HTML CSS and bootstrap 5 - Project 03">
+    <meta name="author" content="Marcus Vinicius">
+    <meta name="keywords" content="Landing Page,Website,Design">
+    <meta name="rebots" content="index,follow">
+    <link rel="shotcut icon" href="">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>TransfoMEI</title>
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!--navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white" data-aos="fade-down">
+        <div class="container">
+            <a class="navbar-brand" href="#">TransforMEI</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--hero-->
+    <section id="home" class="bg-cover hero-section" style="background-image: url(img/cover_1.jpg);">
+        <div class="overlay"></div>
+        <div class="container text-white text-center">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="display-4" data-aos="zoom-in">We can guide you to a <br>
+                        Business Anywhere future </h1>
+                    <p class="my-4" data-aos="fade-up">To guide your company toward its envisioned future, you need a
+                        road map. We’ll help you understand <br> your business and customer insights while developing a
+                        compelling vision, strategy <br> and overall blueprint for driving competitive advantage.</p>
+                    <a href="#" data-aos="fade-up" class="btn btn-main">Get started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--services-->
+    <section id="services" class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 section-intro text-center" data-aos="fade-up">
+                    <h1>Our Services</h1>
+                    <div class="divider"></div>
+                    <p>Considering or already beginning to transform your business? Learn what it takes to achieve
+                        successful transformation.
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="zoom-in">
+                    <div class="service">
+                        <div class="service-img">
+                            <img src="img/image_1.jpg" alt="">
+                            <div class="icon"><i class="icon-browser"></i></div>
+                        </div>
+                        <h5 class="mt-5 pt-4">Technology Expertise</h5>
+                        <p>Data is a precious corporate asset. Shouldn’t you treat it like one? Harness your data to
+                            drive business insights, automation, process improvement and innovation.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in">
+                    <div class="service">
+                        <div class="service-img">
+                            <img src="img/image_2.jpg" alt="">
+                            <div class="icon"><i class="icon-bargraph"></i></div>
+                        </div>
+                        <h5 class="mt-5 pt-4">Marketing & CRM</h5>
+                        <p>Marketing Automation software empower your sales and marketing teams to capture, organize and
+                            use prospect and customer data</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in">
+                    <div class="service">
+                        <div class="service-img">
+                            <img src="img/image_3.jpg" alt="">
+                            <div class="icon"><i class="icon-camera"></i></div>
+                        </div>
+                        <h5 class="mt-5 pt-4">Digital Modernization</h5>
+                        <p>Digital modernization brings new-age interfaces—from virtual reality/augmented reality
+                            (VR/AR) to holograms and beyond—to life for modern customers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--about-->
+    <section id="about" class="bg-cover" style="background-image: url(img/cover_3.jpg);">
+        <div class="overlay"></div>
+        <div class="container text-white text-center">
+            <div class="row">
+                <div class="col-12 section-intro text-center" data-aos="fade-up">
+                    <h1>Watch our video</h1>
+                    <div class="divider"></div>
+                    <p>From evolving customer expectations and emerging technologies to more nimble companies entering
+                        industries, <br> businesses today are more at risk for disruption than ever before.
+                    </p>
+                    <a href="#" class="video-btn"><i class='bx bx-play'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--features-->
+    <section id="features" class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 section-intro text-center" data-aos="fade-up">
+                    <div class="divider"></div>
+                    <p>Our Business Consulting Services are structured to address a company’s end-to-end business needs.
+                        We provide comprehensive services <br> to support your business by leveraging strategy to drive
+                        people, process, information and technology considerations.
+                    </p>
+                </div>
+            </div>
+            <div class="row gx-4 gy-5">
+                <div class="col-md-4 feature" data-aos="fade-up">
+                    <div class="icon"><i class="icon-tools"></i></div>
+                    <h5 class="mt-4 mb-3">Business Strategy</h5>
+                    <p> We’ll help you understand your business and customer insights while developing a compelling
+                        vision, strategy and overall blueprint for driving competitive advantage</p>
+                </div>
+                <div class="col-md-4 feature" data-aos="fade-up">
+                    <div class="icon"><i class="icon-browser"></i></div>
+                    <h5 class="mt-4 mb-3">Experience Design</h5>
+                    <p>We help clients understand, ideate and execute modern interactions across channels and functional
+                        areas to drive growth, increase productivity and create a culture where people</p>
+                </div>
+                <div class="col-md-4 feature" data-aos="fade-up">
+                    <div class="icon"><i class="icon-calendar"></i></div>
+                    <h5 class="mt-4 mb-3">Operational Excellence</h5>
+                    <p> Together, we’ll dive into your business operations across people, processes, technology and
+                        metrics to ensure you can create truly sustainable results</p>
+                </div>
+                <div class="col-md-4 feature" data-aos="fade-up">
+                    <div class="icon"><i class="icon-camera"></i></div>
+                    <h5 class="mt-4 mb-3">Enterprise Portfolio</h5>
+                    <p>From portfolio management to project delivery, we’ll work with you to deliver strategies and
+                        initiatives in an agile, rapid and value-driven manner</p>
+                </div>
+                <div class="col-md-4 feature" data-aos="fade-up">
+                    <div class="icon"><i class="icon-scissors"></i></div>
+                    <h5 class="mt-4 mb-3">Program Management</h5>
+                    <p> Achieving the success with business strategies, financial management and more.The process is
+                        extensive, and PMOs are often
+                        bureaucratic and slow things down rather than enabling change</p>
+                </div>
+                <div class="col-md-4 feature" data-aos="fade-up">
+                    <div class="icon"><i class="icon-strategy"></i></div>
+                    <h5 class="mt-4 mb-3">Change Consulting</h5>
+                    <p>Whether your company is undergoing a significant transformation or you need to strengthen your
+                        culture, we’ll help your leaders equip and empower your people organization and culture to
+                        thrive.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--counters-->
+    <section class="bg-cover" style="background-image: url(img/cover_2.jpg);">
+        <div class="overlay"></div>
+        <div class="container text-white text-center">
+            <div class="row gy-4" data-aos="fade-up">
+                <div class="col-md-3">
+                    <i class="icon-trophy h1"></i>
+                    <h1 class="mt-3 mb-2">45,00</h1>
+                    <p>Awards Won</p>
+                </div>
+                <div class="col-md-3">
+                    <i class="icon-camera h1"></i>
+                    <h1 class="mt-3 mb-2">120k</h1>
+                    <p>Pictures Taken</p>
+                </div>
+                <div class="col-md-3">
+                    <i class="icon-happy h1"></i>
+                    <h1 class="mt-3 mb-2">30M+</h1>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="col-md-3">
+                    <i class="icon-paintbrush h1"></i>
+                    <h1 class="mt-3 mb-2">4,005</h1>
+                    <p>Themes Designed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--reviews-->
+    <section id="reviews" class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 section-intro text-center">
+                    <h1>Our Testimonials</h1>
+                    <div class="divider"></div>
+                    <p>Looking for examples of how our business consulting services help our clients become stronger
+                        companies for their customers and employees alike?
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4 text-start">
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="review p-4">
+                        <div class="person">
+                            <img src="img/avatar_1.jpg" alt="">
+                            <div class="text ms-3">
+                                <h6 class="mb-0">Vincent Paolo</h6>
+                                <small>Google</small>
+                            </div>
+                        </div>
+                        <p class="pt-4">"There is only one word I can use to describe my experience with TransfoMEI:
+                            partner. In the truest sense of a high performing partnership"</p>
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="review p-4">
+                        <div class="person">
+                            <img src="img/avatar_2.jpg" alt="">
+                            <div class="text ms-3">
+                                <h6 class="mb-0">Pedro Morelo</h6>
+                                <small>World Wide Technology</small>
+                            </div>
+                        </div>
+                        <p class="pt-4">"A collaborative environment has been created to ensure complete clarity and
+                            trust throughout the project teams."</p>
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="review p-4">
+                        <div class="person">
+                            <img src="img/avatar_6.jpg" alt="">
+                            <div class="text ms-3">
+                                <h6 class="mb-0">Yohanna Davis</h6>
+                                <small>Oracle</small>
+                            </div>
+                        </div>
+                        <p class="pt-4">"TransforMEI has done a great job integrating and adapting; they are not seen as a
+                            consultant, but a member of the team.”</p>
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="review p-4">
+                        <div class="person">
+                            <img src="img/avatar_4.jpg" alt="">
+                            <div class="text ms-3">
+                                <h6 class="mb-0">Aylana Saratoga</h6>
+                                <small>IBM</small>
+                            </div>
+                        </div>
+                        <p class="pt-4">"A true advocate and cheerleader of each employee’s personal and professional
+                            growth, TransforMEI challenges and invests in us, to help us grow with the company." </p>
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="review p-4">
+                        <div class="person">
+                            <img src="img/avatar_5.jpg" alt="">
+                            <div class="text ms-3">
+                                <h6 class="mb-0">Lauren Manzano</h6>
+                                <small>Orchestry</small>
+                            </div>
+                        </div>
+                        <p class="pt-4">"There is always someone to take the time to listen, lend a helping hand when
+                            needed, and brainstorm through a challenge. We value confidence over ego, substance over
+                            style, and culture over conformity" </p>
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="review p-4">
+                        <div class="person">
+                            <img src="img/avatar_3.jpg" alt="">
+                            <div class="text ms-3">
+                                <h6 class="mb-0">Joaquim Kunal</h6>
+                                <small>Microsoft Gold</small>
+                            </div>
+                        </div>
+                        <p class="pt-4">"TransforMEI’s people are my personal difference-makers who keep me motivated,
+                            encouraged, and inspired. For us, client success is not optional — it’s everything"</p>
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--blog-->
+    <section id="blog" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 section-intro text-center" data-aos="fade-up">
+                    <h1>Our Blog Posts</h1>
+                    <div class="divider"></div>
+                    <p>Are you looking for expert, practical advice to solve your business and technology needs?
+                        Whatever your business or technology questions, you’ve come to the right place. Find our most
+                        relevant content at your fingertips. Start reading – and get to know us better!
+                    </p>
+                </div>
+            </div>
+            <div class="row text-start">
+                <div class="col-md-4" data-aos="fade-up">
+                    <img src="img/blog_post1.png" alt="">
+                    <div class="mt-4">
+                        <small>Posted in <a href="#">Business Design</a>, 04 Oct 2022</small>
+                        <h5 class="mt-1 mb-2"><a href="#">Business does not happen in a vacuum</a></h5>
+                        <p>Business transformations must be executed with an agile mindset and viewed as a journey
+                            rather than a destination.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up">
+                    <img src="img/blog_post2.png" alt="">
+                    <div class="mt-4">
+                        <small>Posted in <a href="#">Consulting, 20 Sep 2022</small>
+                        <h5 class="mt-1 mb-2"><a href="#">Changing Mindsets: A Blueprint for Business Transformation</a>
+                        </h5>
+                        <p>Discover what it takes to drive business transformation by changing the way employees behave,
+                            which first requires changing how they think.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up">
+                    <img src="img/blog_post3.png" alt="">
+                    <div class="mt-4">
+                        <small>Posted in <a href="#">Technology</a>, 06 Sep 2022</small>
+                        <h5 class="mt-1 mb-2"><a href="#">3 Reasons Modern Software Delivery Matters</a></h5>
+                        <p>Learn why Modern Software Delivery is fundamental to successful business transformation
+                            efforts and what it takes to get started with MSD.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--contact-->
+    <section id="contact" class="bg-cover text-white" style="background-image: url(img/cover_3.jpg);">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 section-intro text-center" data-aos="fade-up">
+                    <h1>Get in touch</h1>
+                    <div class="divider"></div>
+                    <p>To help us serve you better and provide us with information about your business needs, please
+                        submit this form.<br> This information will enable us to route your request to the appropriate
+                        person.<br> You should receive a response within one to two business days.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 mx-auto" data-aos="fade-up">
+                    <form action="#" class="row g-4">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Full name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="email" class="form-control" placeholder="Email address">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <input type="text" class="form-control" placeholder="Subject">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <textarea name="" id="" cols="30" rows="4" class="form-control"
+                                placeholder="Message"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-main" type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">Copyright © 2015-2020. Designed By Salman</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div>
+                        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-dribbble'></i></a>
+                        <a href="#"><i class='bx bxl-instagram'></i></a>
+                        <a href="#"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init();
+    </script>
+</body>
+
+
+</html>
